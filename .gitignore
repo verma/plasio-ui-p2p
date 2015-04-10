@@ -1,0 +1,12 @@
+.DS_Store
+\#*\#
+.\#*
+/etcd/
+npm-debug.log
+node_modules/
+node.core
+/target
+figwheel_server.log
+/.boot
+/resources/public/plasio_ui.min.js
+/resources/public/js
