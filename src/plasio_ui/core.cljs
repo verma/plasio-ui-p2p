@@ -11,8 +11,8 @@
 (defonce app-data (atom {:snapshots (vec (repeat 100 {}))
                          :backtrack 0.5 }))
 
-(def ^:private greyhound-server "http://54.198.162.84")
-(def ^:private greyhound-pipeline  "2046708610c00ca59cce01315cd514bf")
+(def ^:private greyhound-server "http://52.4.221.249:8080")
+(def ^:private greyhound-pipeline  "mini-shred")
 
 (def ^:private loaders
   (js-obj "point" (js/PlasioLib.Loaders.GreyhoundPipelineLoader. greyhound-server greyhound-pipeline)
